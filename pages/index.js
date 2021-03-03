@@ -26,7 +26,9 @@ export default function Home() {
           <a href="https://digitalmoshai.com" className="card">
             <h3>Digital Moshai</h3>
           </a>
-
+          <a href="https://mukulchugh.com/tagmango" className="card">
+            <h3>Subscribe on TagMango</h3>
+          </a>
           <a href="https://www.linkedin.com/in/mukulchugh/" className="card">
             <h3>Connect on LinkedIn</h3>
           </a>
