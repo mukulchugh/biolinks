@@ -4,6 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: rgb(8, 33, 209);
+  background: linear-gradient(
+    6deg,
+    rgba(8, 33, 209, 1) 0%,
+    rgba(178, 9, 255, 1) 100%
+  );
 }
 
 a {
@@ -15,11 +21,18 @@ a {
   box-sizing: border-box;
 }
 
+main {
+  background: rgb(55, 0, 122);
+  background: linear-gradient(
+    6deg,
+    rgba(55, 0, 122, 1) 0%,
+    rgba(9, 138, 255, 1) 93%
+  );
+  padding: 100px;
+}
+
 .image {
-  margin-top: 100px;
   border-radius: 50%;
-  width: 256px;
-  height: 256px;
   align-content: center;
   display: block;
   margin-left: auto;
@@ -30,6 +43,7 @@ a {
 .description {
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 .grid {
